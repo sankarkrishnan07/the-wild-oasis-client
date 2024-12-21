@@ -12,7 +12,7 @@ function CabinCard({ cabin }) {
           fill
           src={image}
           alt={`Cabin ${name}`}
-          className="flex-1 border-r border-primary-800"
+          className="flex-1 border-r border-primary-800 object-cover"
         />
       </div>
 
