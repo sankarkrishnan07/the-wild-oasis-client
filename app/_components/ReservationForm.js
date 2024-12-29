@@ -25,8 +25,8 @@ function ReservationForm({ cabin, user }) {
   };
 
   async function createBookingWithData(formData) {
-    await createBooking(bookingData, formData);
     resetRange();
+    await createBooking(bookingData, formData);
   }
 
   return (
